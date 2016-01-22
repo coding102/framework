@@ -1,46 +1,72 @@
+@import 'classy-background';
+@import 'classy-fonts'
+    
+// Grid column container
 .classy-container {
     width: 100%;
     max-width: 1200px;
 }
 
+//float all columns left
 [class*='col-'] {
-        float: left;
-        min-height: 1px; 
+    float: left;
+    min-height: 1px; 
 }
- 
+
+// 12 column grid section
 .col-1{
-        width: 8.33%; 
+    width: 8.33%; 
     }
-    .col-2{
-        width: 16.66%; 
+.col-2{
+    width: 16.66%; 
+}
+.col-3{
+    width: 24.99%; 
+}
+.col-4{
+    width: 33.32.%;
+}
+.col-5{
+    width: 41.65%;
+}
+.col-6{
+    width: 49.98%;
+}
+.col-7{
+    width: 58.31%; 
+}
+.col-8{
+    width: 66.64%; 
+}
+.col-9{
+    width: 74.97%;
+}
+.col-10{
+    width: 83.3%;
+}
+.col-11{
+    width: 91.67%;
+}
+.col-12{
+    width: 100%;
+}
+
+// 6 column grid section
+.col-1{
+    width: 16.66%; 
     }
-    .col-3{
-        width: 24.99%; 
-    }
-    .col-4{
-        width: 33.32.%;
-    }
-    .col-5{
-        width: 41.65%;
-    }
-    .col-6{
-        width: 49.98%;
-    }
-    .col-7{
-        width: 58.31%; 
-    }
-    .col-8{
-        width: 66.64%; 
-    }
-    .col-9{
-        width: 74.97%;
-    }
-    .col-10{
-        width: 83.3%;
-    }
-    .col-11{
-        width: 91.67%;
-    }
-    .col-12{
-        width: 100%;
-    }
+.col-2{
+    width: 33.33%; 
+}
+.col-3{
+    width: 49.99%; 
+}
+.col-4{
+    width: 66.65.%;
+}
+.col-5{
+    width: 83.31%;
+}
+.col-6{
+    width: 100%;
+}

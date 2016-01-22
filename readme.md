@@ -1,7 +1,7 @@
 #SASS Framework
 
 *Create a Bootstrap-like toolkit in SASS that covers some basic HTML element use cases like headers ( <h1> ), forms
-( <input ), etc. Use the powerful features of SASS, like dividing elements into partials and variable names, to make your life and the end users' life easier.
+( <input ), etc. Use the powerful features of SASS, like dividing elements into partials and variable names, to make your life and the end users' life easier
 
 *Focus on the easy things first - picking a font, buttons, good looking forms, good looking dropdown menus. Then see what you have time left to tackle
 
